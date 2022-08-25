@@ -1,0 +1,84 @@
+<html>
+<head>
+    <title>Exam</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/main.js" defer></script>
+</head>
+<body>
+<div class="coniter">
+    <div class="header">
+        <div class="title">
+            <h1>IT-Exam</h1>
+            <p>Student Name : <span class="studentName"></span></p>
+
+        </div>
+        <div class="info">
+
+            <div class="finish">
+               
+                <div ><i class="material-icons">stop_circle</i>
+                    <p >finish</p>
+                </div>
+            </div>
+            <div class="left-time">
+                <div><i  class="material-icons">schedule</i>
+                    <p >left time</p>
+                </div>
+            </div>
+            <div class="timer">
+                <p><span class="minutes">30</span>:<span class="seconds">00</span></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="content">
+        <div id="grade" >
+            <h3 class="studentName" ></h3>
+            <h5>Your Grade : <span id="yourgrade"></span></h5>
+        </div>
+        <div id="startcontent" >
+            <h1>Welcome <span class="studentName">Ahmed Mohamed</span></h1>
+        </div>
+       <div id="exam">
+           <div class="tab question headque" >
+               <h2 id="question"></h2>
+           </div>
+           <div class="tab err">
+               <h4>You must select choice</h4>
+           </div>
+           <div id="answers">
+           </div>
+       </div>
+    </div>
+    <div class="footer">
+        <div id="nextdiv" >
+            <div id="next" >
+                <div class="enternext" > NEXT
+                </div>
+                <div class="enternext2">
+                    <i class="material-icons">arrow_forward</i>
+                </div>
+            </div>
+        </div>
+        <button class="btnstart" id="start-btn">START</button>
+        <div class="finish fin" >
+            <div id="finish" >
+                <div class="enterfinish">Finish
+                </div>
+            </div>
+        </div>
+        <div class="iconback">
+            <div id="back" >
+                <div class="divback"><i class="material-icons">arrow_backward</i>
+                </div>
+                <div class="enterback"> Back
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

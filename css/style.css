@@ -1,0 +1,319 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.coniter {
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.header {
+    height: 70px;
+    background-color: rgb(0, 174, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+
+}
+
+
+h1,
+p {
+    margin: 0;
+    padding: 0;
+    color: white;
+
+
+}
+
+.title {
+    width: 70%;
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.title h1 {
+    font-size: 27px;
+}
+
+img {
+    width: 50px;
+}
+
+.info {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.info>div {
+    float: left;
+    padding: 0 20px;
+    border-left: 1px solid white;
+}
+
+.info>div:last-of-type {
+    border: none;
+}
+
+.info>div p {
+    font-size: 16px;
+
+}
+
+
+.timer {
+    padding-left: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.timer p {
+    font-size: 27px !important;
+}
+
+.tab {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto auto;
+}
+
+.question {
+    width: 95%;
+    /* height: 10%px; */
+    background-color: rgb(233, 230, 230);
+    border: 1px solid rgba(202, 202, 202, 0.933);
+
+}
+
+.err {
+    background-color: rgba(0, 0, 0, 0.741);
+    border: 2px solid rgb(226, 36, 36);
+    text-align: center;
+    color: rgb(226, 36, 36);
+    width: 97%;
+    display: none;
+}
+
+
+.answer {
+    width: 93%;
+    /* height: 10%px; */
+    background-color: rgb(233, 230, 230);
+    border: 1px solid rgba(202, 202, 202, 0.933);
+    /* display: none; */
+}
+
+.answer:hover {
+    cursor: pointer;
+    background-color: rgb(0, 174, 255);
+}
+
+input {
+    margin-right: 10px;
+}
+
+.footer {
+
+    background-color: rgba(0, 0, 0, 0.741);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    margin-top: 30px;
+    height: 60px;
+    text-align: center;
+}
+
+.next {
+    display: inline-block;
+    padding-bottom: 30px;
+
+}
+
+.btnstart {
+    background-color: rgba(59, 57, 57, 0.741);
+    border: 1px solid white;
+    color: white;
+    padding: 5px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+
+}
+
+#nextdiv {
+    display: none;
+}
+
+#exam {
+    display: none;
+}
+
+#grade {
+    display: none;
+}
+
+.footer .finish {
+    display: none;
+}
+
+.info i {
+    font-size: 50px;
+}
+
+.finish div {
+    color: white;
+    cursor: pointer
+}
+
+.left-time {
+    color: white;
+}
+
+.finish p {
+    color: rgba(255, 255, 255, 0.878);
+}
+
+#grade {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#grade h3 h5 {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+#startcontent {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#startcontent h1 {
+    padding: 0;
+    margin: 0;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.headque {
+    background-color: rgba(202, 202, 202, 0.933);
+}
+
+#nextdiv {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#next {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer
+}
+
+.enternext {
+    float: left;
+    margin-top: 10px;
+}
+
+.enternext2 {
+    float: left;
+}
+
+.footer i {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.fin {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    cursor: pointer
+}
+
+.iconback {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer
+}
+
+#back {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: none;
+}
+
+.divback {
+    float: left;
+    width: 40px;
+}
+
+.enterback {
+    float: left;
+    margin-top: 10px;
+}
+
+#finish {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.enterfinish {
+    float: left;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.display-none{*/
+/*    display: none;*/
+/*}*/
+
+/*.display-block {*/
+/*    display: block;*/
+/*}*/

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="./js/login-form.js" defer></script>
+</head>
+<body>
+
+<div class="login-wrapper">
+    <h1>Login page</h1>
+    <form action="home.html"  class="login-form">
+        <div class="field">
+            <label for="username">User Name</label>
+            <input type="text" name="username" id="username">
+        </div>
+        <div class="field">
+            <label for="password">User Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div class="form-buttons">
+            <button type="submit">Ok</button>
+            <button type="reset">Cancel</button>
+            <div style="clear: both"></div>
+        </div>
+    </form>
+    
+    <div class="errors">
+    </div>
+    <a id="register" href="register-form.html">register </a>
+</div>
+
+
+</body>
+</html>

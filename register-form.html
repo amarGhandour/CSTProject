@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css">
+    <script src="./js/register-form.js" defer></script>
+</head>
+<body>
+
+<div class="register-wrapper">
+    <h1>Registration page</h1>
+    <form action="login.html" class="register-form">
+        <div class="field">
+            <label for="username">User Name</label>
+            <input type="text" name="username" id="username">
+        </div>
+
+        <div class="field">
+            <label for="password">User Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <div class="field">
+            <label for="password_confirm">Password confirmation</label>
+            <input type="password" name="password_confirm" id="password_confirm">
+        </div>
+        <div class="field">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div class="field" style="position: relative">
+            Gender
+            <div class="gender-inputs">
+                <div>
+                    <input type="radio" name="gender" value="male">
+                    <label>Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" value="female">
+                    <label>Female</label>
+                </div>
+            </div>
+        </div>
+        <div class="field">
+            <button type="submit">Ok</button>
+            <button type="reset">Cancel</button>
+            <div style="clear: both"></div>
+        </div>
+    </form>
+    <div class="errors">
+
+    </div>
+</div>
+
+</body>
+</html>
